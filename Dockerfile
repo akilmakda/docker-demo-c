@@ -4,6 +4,6 @@ COPY . /gcc/src/helloworldC
 
 WORKDIR /gcc/src/helloworldC
 
-RUN gcc -o helloworld helloworld.c
+RUN make
 
-CMD [ "./helloworld" ]
+CMD [ "./main" ]
