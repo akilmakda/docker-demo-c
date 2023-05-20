@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "helloworld.h"
 
 int main()
 {
-    printf("Hello World!");
+    printMsg();
     return 0;
 }
